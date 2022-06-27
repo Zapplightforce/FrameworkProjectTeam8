@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="navbar-item">
-            <a href="/calendar/month" class="navbar-item">
+            <a href="/calendar" class="navbar-item">
                 <span class="icon is-small"><i class="fa-solid fa-calendar-days"></i></span>
                 <span>Weekly Planning</span>
             </a>
