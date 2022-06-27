@@ -91,19 +91,6 @@
     </div>
 
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js" integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#div_Chart_refresh").load("graph");
-            console.log('lol');
-            $("#div_Shifts_refresh").load("shifts");
-            setInterval(function() {
-                $("#div_Chart_refresh").load("graph");
-                $("#div_Shifts_refresh").load("shifts");
-            }, 3000);
-        });
-    </script>
+
     </html>
 @endsection

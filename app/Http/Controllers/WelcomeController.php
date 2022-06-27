@@ -40,15 +40,9 @@ class WelcomeController extends Controller
 
         $shifts = Shifts::latest()->get();
 
-        $this->console_log($shifts);
 
         return view('shifts' , compact('shifts' ));
     }
 
-    function console_log( $data ){
-        echo '<script>';
-        echo 'console.log('. json_encode( $data ) .')';
-        echo '</script>';
-    }
 
 }
