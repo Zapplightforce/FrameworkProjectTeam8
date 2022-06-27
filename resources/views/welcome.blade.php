@@ -97,6 +97,7 @@
     <script>
         $(document).ready(function(){
             $("#div_Chart_refresh").load("graph");
+            console.log('lol');
             $("#div_Shifts_refresh").load("shifts");
             setInterval(function() {
                 $("#div_Chart_refresh").load("graph");
