@@ -36,18 +36,11 @@ class WelcomeController extends Controller
 
     }
 
-    public function stoppers(){
-
-
-
-        $stoppers = Stoppers::take(10)->latest()->orderBy('duration', 'desc')->get();
-        return view('stoppers' , compact('stoppers' ));
-    }
-
     public function shifts(){
 
         $shifts = Shifts::latest()->get();
 
         return view('shifts' , compact('shifts' ));
     }
+
 }
